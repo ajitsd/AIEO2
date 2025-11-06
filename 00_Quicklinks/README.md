@@ -1,8 +1,6 @@
-# Quicklinks - AI Engineering
+# Quicklinks
 
-Quicklinks are to help you **easily navigate individual session information** for `AI Engineering Onramp`!  
-
-- We'll follow the [course schedule](https://bit.ly/aieo1-cal) as outlined throughout the cohort!
+Quicklinks are to help you **easily navigate individual session information** for `The AI Engineer Onramp`!  
 
 | 📰 Session | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📄 Homework       | 📁 Feedback       | 
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
