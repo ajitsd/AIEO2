@@ -6,7 +6,7 @@ This course is designed to help you get set up like a professional AI Engineer s
 
 ## 🗓️ Class Dates
 
-If you'd like, you can **[access the Zoom classroom directly now](https://us02web.zoom.us/j/81979109558).** 
+If you'd like, you can **[access the Zoom classroom directly now](https://us02web.zoom.us/j/83425720977).** 
 
 Class is held from 12:00 to 1:30 PM on Mondays, and will open promptly at 12:00:00 PM ET. **You should have received hard calendar invites for each class period**, according to the following schedule 👇
 
