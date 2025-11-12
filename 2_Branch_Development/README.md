@@ -132,3 +132,7 @@ git checkout main
 git pull upstream main  # Get lesson 2 materials
 git checkout -b lesson2-assignment
 ```
+
+> Thinking Questions
+- What is one lesson you've learned from this?
+- What is one [lesson that you have not yet learned](https://www.loom.com/share/b34e4bd657f74892ac9a01f774113b4d)?
