@@ -37,7 +37,7 @@ You can follow [this guide](https://docs.github.com/en/repositories/creating-and
 
 Once you've created your new repository, copy the repo’s SSH address. You'll want to copy this address as shown below. Click the 'copy' icon at the end of the address bar 
 
-[image](https://camo.githubusercontent.com/2501805d456c2637550a9674619801d7bbd224af2b88574c7f40562b9509eb28/68747470733a2f2f692e696d6775722e636f6d2f3632514e79667a2e706e67)
+![image](https://i.imgur.com/62QNyfz.png)
 
 ### 3️⃣ Clone Your GitHub Repo Locally
 
