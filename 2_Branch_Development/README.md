@@ -53,6 +53,7 @@ At the same time,
 - You will `push` to **Origin** (your remote repository).
 - You will write code and edit files on **Local** (with assignment/feature branches).
 
-> Thinking Questions
+### Thinking Questions
+
 - What is one lesson you've learned from this?
 - What is one [lesson that you have not yet learned](https://www.loom.com/share/b34e4bd657f74892ac9a01f774113b4d)?
