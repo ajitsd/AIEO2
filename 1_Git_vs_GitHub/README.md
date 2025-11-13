@@ -19,6 +19,7 @@
     - and more…
 - While alternatives to GitHub do exist - like [GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org/product/) - understanding the core patterns will allow you to pick up any other tool.
 
-> Thinking Questions
+### Thinking Questions
+
 - What is one lesson you've learned from this?
 - What is one [lesson that you have not yet learned](https://www.loom.com/share/b34e4bd657f74892ac9a01f774113b4d)?
