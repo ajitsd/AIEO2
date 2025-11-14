@@ -26,7 +26,7 @@ First, do these things:
 
 You can follow [this guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) if you need to, but creating a blank repo is pretty straightforward. A few notes on the seeing you should use, as shown below.
 
-1. Please use the **repository name** that corresponds to your cohort! e.g., AIE9, AIEO2, etc.
+1. Please use the **repository name** that corresponds to your cohort! e.g., AIE9, AIEO2, etc. Don't get fancy with the name - your life will be easier if you keep the name simple.
 2. The process will be easiest if you make sure **Add a README file is deselected**.
 
 ![image](https://i.imgur.com/WQtlxc5.png)
@@ -60,7 +60,7 @@ cd yourrepo
 
 ### 4️⃣ Add Class Repo as an Upstream Remote
 
-First, run this command:
+First, run this command (but make sure to replace the XX with your cohort number):
 
 ```markdown
 git remote add upstream git@github.com:AI-Maker-Space/AIEXX.git
@@ -105,7 +105,7 @@ Now we need to push everything up from our local repo to our remote repository o
 git push origin main
 ```
 
-🎉 Congrats! *You just pushed the course materials in your local repo up to your remote repo (origin) on GitHub.com* 
+🎉 Congrats! *You just pushed the course materials in your local repo up to your remote repo (origin) on GitHub.com. 
 
 > During steps 5️⃣ and 6️⃣, notice the use of `main`.`main` is simply the name given to the [default branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#about-the-default-branch) in a repo.
 > 
