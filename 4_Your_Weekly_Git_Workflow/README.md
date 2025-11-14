@@ -28,7 +28,7 @@ Now, imagine you want to pull down week 2’s work *as the assignment is release
 Run this command:
 
 ```markdown
-git pull upstream main
+git pull upstream main --allow-unrelated-histories
 ```
 
 ### 2️⃣ Create an Assignment Branch
@@ -80,7 +80,7 @@ git push origin lesson1-assignment
 Now imagine you’re about to start **week 3**’s work! Can you recall the steps you need to follow and why?
 
 ```markdown
-git pull upstream main # Get new lesson materials from AI Makerspace remote
+git pull upstream main --allow-unrelated-histories # Get new lesson materials from AI Makerspace remote
 git checkout -b lessonX-assignment # Create branch to work on new assignment
 #--do work--
 git add . # Add changes to git history / move changes to staging 
