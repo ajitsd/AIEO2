@@ -50,8 +50,9 @@ At the same time,
 **TL;DR**
 
 - You will only `pull` from **Upstream** (course materials), not `push` back to it.
-- You will `push` to **Origin** (your remote repository).
 - You will write code and edit files on **Local** (with assignment/feature branches).
+- You will `push` to **Origin** (your remote repository).
+
 
 ### Thinking Questions
 
