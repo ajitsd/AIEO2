@@ -5,7 +5,7 @@ In session 1, we’ll kick off the cohort! You’ll get introduced to **AI Make
 ## **📛 Required Tooling & Account Setup**
 
 1. 🧑‍💻 Set up **Cursor** as your [AI-Assisted Interactive Development Environment (AI-IDE)](https://github.com/AI-Maker-Space/Awesome-AIM-Index/blob/main/README.md#:~:text=Cursor%3A%20An%20AI%20Engineer%E2%80%99s%20Guide%20to%20Vibe%20Coding%20and%20Beyond).
-2. 🔑 Set up an **API key** for [OpenAI](https://platform.openai.com/docs/models). Start [here](https://github.com/AI-Maker-Space/AIE7/tree/main/00_OpenAI%20API%20Key%20Setup) to create an OpenAI key that you can use throughout the course!
+2. 🔑 Set up an **API key** for [OpenAI](https://platform.openai.com/docs/models). Start [here](https://platform.openai.com/docs/quickstart/step-2-set-up-your-api-key) to create an OpenAI key that you can use throughout the course!
 
 ## **🧑‍💻 Recommended Pre-Work**
 
