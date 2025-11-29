@@ -558,11 +558,12 @@ Create a Python backend server (app.py) with LLM integration, add it to a GitHub
 4. Test the backend locally following the steps in `./Advanced_assignment/README_backend.md`:
    - Install dependencies:
      ```bash
-     pip install fastapi uvicorn
+     uv sync
      ```
+     This command automatically creates a virtual environment and populates it with all necessary libraries defined in `pyproject.toml`.
    - Run the backend server:
      ```bash
-     uvicorn app:app --reload
+     uv run uvicorn app:app --reload
      ```
    - The API will be available at `http://localhost:8000`
    - Test the endpoint using the interactive docs at `http://localhost:8000/docs` or with curl:
