@@ -9,7 +9,7 @@ Make sure you have Python 3.7+ installed.
 
 1. Install the required dependencies:
 ```bash
-pip install fastapi uvicorn
+uv sync
 ```
 
 ### Running the Application
@@ -21,7 +21,7 @@ cd advanced
 
 2. Start the FastAPI server:
 ```bash
-uvicorn app:app --reload
+uv run uvicorn app:app --reload
 ```
 
 The `--reload` flag enables auto-reload on code changes (useful for development).
