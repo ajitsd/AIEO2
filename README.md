@@ -71,7 +71,7 @@ Your peer supporters will be your [guides](https://curiouslionlearning.com/why-g
 - [Mani Sarkar](https://www.notion.so/Mani-Sarkar-2a0cd547af3d80179c39f0beddb94005), The Sandbox, available at 6 PM ET on Thursdays
 - [Mike Dean](https://www.notion.so/Mike-Dean-17bcd547af3d807a8526fc8a24363b7a?pvs=21), GitMasters, available at 12 PM ET on Tuesdays
 - [Don Branson](https://www.notion.so/Don-Branson-1c8cd547af3d80e9a221d62d2ddc4036?pvs=21), Distilled Reasoning, available {TBD}
-- [Todd Deshane](https://www.notion.so/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=21), TBD, available {TBD}
+- [Todd Deshane](https://www.notion.so/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=21), TBD, available at 9 PM ET on Sundays
   
 🎉 You'll also notice office hours from instructors, peer supporters, and more!
 
