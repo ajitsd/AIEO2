@@ -18,14 +18,14 @@ By the end, you'll have created, customized, and deployed your own live web appl
 
 - [What You'll Be Working On?](#what-you'll-be-working-on)
 - [Prerequisites](#prerequisites)
-- [Step 0: Set Up Your Development Environment 🛠️](#step-0-set-up-your-development-environment-️)
-- [Step 1: Connect to AIM Repository Remotely 🔗](#step-1-connect-to-aim-repository-remotely-)
-- [Step 2: Create Your GitHub Repository 🐙](#step-2-create-your-github-repository-)
-- [Step 3: Brainstorm Your Idea 💡](#step-3-brainstorm-your-idea-)
-- [Step 4: Get Your Design Resources 🎨](#step-4-get-your-design-resources-)
-- [Step 5: Create Your v0 Prompt 🎬](#step-5-create-your-v0-prompt-)
-- [Step 6: Clone Repository and Download v0 App in Cursor 📥](#step-6-clone-repository-and-download-v0-app-in-cursor-)
-- [Step 7: Deploy to Vercel 🌐](#step-7-deploy-to-vercel-)
+- [Step 1: Brainstorm Your Idea 💡](#step-1-brainstorm-your-idea-)
+- [Step 2: Get Your Design Resources 🎨](#step-2-get-your-design-resources-)
+- [Step 3: Create Your v0 Prompt 🎬](#step-3-create-your-v0-prompt-)
+- [Step 4: Set Up Your Development Environment 🛠️](#step-4-set-up-your-development-environment-️)
+- [Step 5: Connect to AIM Repository Remotely 🔗](#step-5-connect-to-aim-repository-remotely-)
+- [Step 6: Create Your GitHub Repository 🐙](#step-6-create-your-github-repository-)
+- [Step 7: Clone Repository and Download v0 App in Cursor 📥](#step-7-clone-repository-and-download-v0-app-in-cursor-)
+- [Step 8: Deploy to Vercel 🌐](#step-8-deploy-to-vercel-)
 - [🏗️ Activity: Experiment with Your App](#️-activity-experiment-with-your-app)
 
 ---
@@ -38,11 +38,98 @@ Before we begin, make sure you have:
 - A [Vercel](https://vercel.com/) account (free tier works great!)
 - Node.js installed on your computer (Mac: `brew install node`, Windows: `sudo apt install nodejs npm`)
 - Git installed and configured
-- SSH keys set up for GitHub (see Step 0)
+- SSH keys set up for GitHub (see Step 4)
 
 ---
 
-## Step 0: Set Up Your Development Environment 🛠️
+## Step 1: Brainstorm Your Idea 💡
+
+First, you need an idea for your app! You have two options:
+
+**Option A: Use v0 for brainstorming**
+- Go to [v0.dev](https://v0.dev)
+- Use the chat to explore ideas and get suggestions
+
+**Option B: Use ChatGPT (Recommended)**
+- Ask ChatGPT to help you brainstorm app ideas
+- Get feedback on your concept
+- Refine your idea until you're happy with it
+
+**Some ideas to get you started:**
+- Personal portfolio website
+- Task management app
+- Weather dashboard
+- Recipe finder
+- Habit tracker
+- Quote generator
+- Simple calculator with style
+- Todo list with categories
+
+---
+
+## Step 2: Get Your Design Resources 🎨
+
+Now it's time to gather design inspiration and components. You have two paths:
+
+#### Path A: Use v0's Premade Templates
+- Browse v0's template library
+- Pick a template that matches your vision
+
+#### Path B: Create Your Own Design (More Original!)
+
+**a) Pick a Template Style:**
+- Visit [Canva Templates](https://www.canva.com/templates/)
+- Find a design style you like
+- Note the colors, layout, and overall aesthetic
+
+**b) Choose Component Styles:**
+- Go to [shadcn/ui Components](https://ui.shadcn.com/docs/components/)
+- Browse the component library
+- Pick components that match your app's needs (buttons, cards, forms, etc.)
+
+**c) Select a Color Scheme:**
+- Visit [Coolors](https://coolors.co/)
+- Generate or browse color palettes
+- Pick colors that match your app's mood and purpose
+
+---
+
+## Step 3: Create Your v0 Prompt 🎬
+
+Now combine everything into a detailed prompt for v0:
+
+1. Describe your app idea
+2. Reference the template style you chose
+3. Mention the shadcn/ui components you want to use
+4. Include your color scheme
+5. Add any specific features or requirements
+
+**Example prompt structure:**
+```
+Create me an app: [Your App Name]
+
+[Description of your app concept]
+
+Use the design style similar to: [Canva template reference]
+For components, use shadcn/ui with: [component names]
+Color scheme: [your colors from Coolors]
+```
+
+**Example: "Santa Wish List" App**
+
+```
+Create me a simple react.js frontend: 1. Santa’s Magical Wish List GeneratorVibe: Scroll parchment, snowflakes falling, warm candle glow.How it worksUser types a wish (or multiple wishes).Each item magically writes itself onto an animated parchment scroll with calligraphy.A wax seal “stamps” when the list is complete.A Ho Ho Ho sound or soft bell plays when Santa replies.Fun features❄️ Snowfall animation✍️ Auto-writing effect🕯 Cozy Christmas aesthetic🎁 Santa gives rating: “Nice / Naughty” for each wish.
+
+Design Requirements:
+- Use the website style similar to: https://www.canva.com/templates/EAFSoi3Ltnc/
+- For buttons, use shadcn/ui with outline variant
+- Color scheme: (select christmas colors from coolors.co)
+- use image (upload cool_santa.png)
+```
+
+---
+
+## Step 4: Set Up Your Development Environment 🛠️
 
 Before we start building, we need to ensure your development environment is properly configured. Follow the comprehensive guide at [Interactive Dev Environment for LLM Development](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development?tab=readme-ov-file#rocket-lets-get-started).
 
@@ -79,14 +166,14 @@ Before we start building, we need to ensure your development environment is prop
 
 ---
 
-## Step 1: Connect to AIM Repository Remotely 🔗
+## Step 5: Connect to AIM Repository Remotely 🔗
 - Clone the AIEO2 repo into your local folder by following the steps in [Setting up local repo](https://github.com/AI-Maker-Space/AIE8/tree/main/00_Setting%20Up%20Git)
 
 Now we'll set up a connection to the AI Maker Space repository so you can access course materials while maintaining your own repository.
 
-### 1.1 Create and Clone Your GitHub Repository
+### 5.1 Create and Clone Your GitHub Repository
 
-1. First, create a new repository on GitHub (we'll do this in detail in Step 2, but for now):
+1. First, create a new repository on GitHub (we'll do this in detail in Step 6, but for now):
    - Go to [GitHub](https://github.com) and create a new repository
    - **DO NOT** initialize with README, .gitignore, or license
    - Copy the SSH URL of your repository
@@ -99,7 +186,7 @@ Now we'll set up a connection to the AI Maker Space repository so you can access
 
 > **Note:** If you see `warning: You appear to have cloned an empty repository.` - that's perfect! You've done it correctly.
 
-### 1.2 Add AIM Repository as Upstream Remote
+### 5.2 Add AIM Repository as Upstream Remote
 
 1. Add the AI Maker Space repository as an upstream remote:
    ```bash
@@ -147,7 +234,7 @@ Now we'll set up a connection to the AI Maker Space repository so you can access
 
 ---
 
-## Step 2: Create Your GitHub Repository 🐙
+## Step 6: Create Your GitHub Repository 🐙
 
 Now let's create a dedicated repository for your frontend application.
 
@@ -160,112 +247,29 @@ Now let's create a dedicated repository for your frontend application.
 7. Click **"Create repository"**
 8. **Copy the SSH URL** (click the green "Code" button and select SSH, then copy the URL)
    - It should look like: `git@github.com:yourusername/yourrepo.git`
-   - You'll need this SSH link in Step 6!
+   - You'll need this SSH link in Step 7!
 
 **Why start with GitHub?** Setting up version control first ensures you can track all changes from the very beginning and makes deployment seamless.
 
 ---
 
-## Step 3: Brainstorm Your Idea 💡
+## Step 7: Clone Repository and Download v0 App in Cursor 📥
 
-First, you need an idea for your app! You have two options:
-
-**Option A: Use v0 for brainstorming**
-- Go to [v0.dev](https://v0.dev)
-- Use the chat to explore ideas and get suggestions
-
-**Option B: Use ChatGPT (Recommended)**
-- Ask ChatGPT to help you brainstorm app ideas
-- Get feedback on your concept
-- Refine your idea until you're happy with it
-
-**Some ideas to get you started:**
-- Personal portfolio website
-- Task management app
-- Weather dashboard
-- Recipe finder
-- Habit tracker
-- Quote generator
-- Simple calculator with style
-- Todo list with categories
-
----
-
-## Step 4: Get Your Design Resources 🎨
-
-Now it's time to gather design inspiration and components. You have two paths:
-
-#### Path A: Use v0's Premade Templates
-- Browse v0's template library
-- Pick a template that matches your vision
-
-#### Path B: Create Your Own Design (More Original!)
-
-**a) Pick a Template Style:**
-- Visit [Canva Templates](https://www.canva.com/templates/)
-- Find a design style you like
-- Note the colors, layout, and overall aesthetic
-
-**b) Choose Component Styles:**
-- Go to [shadcn/ui Components](https://ui.shadcn.com/docs/components/)
-- Browse the component library
-- Pick components that match your app's needs (buttons, cards, forms, etc.)
-
-**c) Select a Color Scheme:**
-- Visit [Coolors](https://coolors.co/)
-- Generate or browse color palettes
-- Pick colors that match your app's mood and purpose
-
----
-
-## Step 5: Create Your v0 Prompt 🎬
-
-Now combine everything into a detailed prompt for v0:
-
-1. Describe your app idea
-2. Reference the template style you chose
-3. Mention the shadcn/ui components you want to use
-4. Include your color scheme
-5. Add any specific features or requirements
-
-**Example prompt structure:**
-```
-Create me an app: [Your App Name]
-
-[Description of your app concept]
-
-Use the design style similar to: [Canva template reference]
-For components, use shadcn/ui with: [component names]
-Color scheme: [your colors from Coolors]
-```
-
-**Example: "Santa Wish List" App**
-
-```
-Create me a simple react.js frontend: 1. Santa’s Magical Wish List GeneratorVibe: Scroll parchment, snowflakes falling, warm candle glow.How it worksUser types a wish (or multiple wishes).Each item magically writes itself onto an animated parchment scroll with calligraphy.A wax seal “stamps” when the list is complete.A Ho Ho Ho sound or soft bell plays when Santa replies.Fun features❄️ Snowfall animation✍️ Auto-writing effect🕯 Cozy Christmas aesthetic🎁 Santa gives rating: “Nice / Naughty” for each wish.
-
-Design Requirements:
-- Use the website style similar to: https://www.canva.com/templates/EAFSoi3Ltnc/
-- For buttons, use shadcn/ui with outline variant
-- Color scheme: (select christmas colors from coolors.co)
-- use image (upload cool_santa.png)
-```
-
----
-## Step 6: Clone Repository and Download v0 App in Cursor 📥
-
-### 6.1 Clone Your GitHub Repository in Cursor
+### 7.1 Clone Your GitHub Repository in Cursor
 
 1. Open Cursor IDE
 2. Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) to open the Command Palette
 3. Type **"Git: Clone"** and select it
-4. Paste your SSH repository URL (from Step 2)
+4. Paste your SSH repository URL (from Step 6)
 5. Choose a location to clone the repository
 6. Cursor will open a **new window** with your cloned repository
 
 **You now have your GitHub repository open in Cursor!**
 
-### 6.2 Download Your App from v0
+![Gitflow Visualization](./Gitflow_visualization.png)
+
+
+### 7.2 Download Your App from v0
 
 1. In v0, after generating your app, click **"Download"**
 2. Copy the **npx command** (it should look like: `npx create-v0-app@latest`)
@@ -277,7 +281,7 @@ Design Requirements:
 
 4. Follow the prompts if any appear
 5. This will create your app folder with all the code in your repository
-### 6.3 Install Dependencies
+### 7.3 Install Dependencies
 
 1. In Cursor's terminal, navigate to your app directory:
    ```bash
@@ -294,7 +298,7 @@ Design Requirements:
    npm install --legacy-peer-deps
    ```
 
-### 6.4 Run Your App Locally
+### 7.4 Run Your App Locally
 
 1. In Cursor's terminal, navigate to your app directory:
    ```bash
@@ -317,7 +321,7 @@ Design Requirements:
 kill -9 $(lsof -ti tcp:3000)
 ```
 
-### 6.5 Generate README with Cursor 🤖
+### 7.5 Generate README with Cursor 🤖
 
 Let Cursor help you create documentation:
 
@@ -326,7 +330,7 @@ Let Cursor help you create documentation:
 3. It will generate a README with setup and launch instructions
 4. Review and customize as needed
 
-### 6.6 Commit and Push to GitHub
+### 7.6 Commit and Push to GitHub
 
 Since you cloned the repository, it's already connected to GitHub! Now commit your v0 app:
 
@@ -350,7 +354,7 @@ Since you cloned the repository, it's already connected to GitHub! Now commit yo
 
 ---
 
-## Step 7: Deploy to Vercel 🌐
+## Step 8: Deploy to Vercel 🌐
 
 Now let's get your app live on the web!
 
