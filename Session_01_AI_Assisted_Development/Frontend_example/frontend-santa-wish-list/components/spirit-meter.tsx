@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Sparkles, Star } from "lucide-react"
+import { Sparkles } from "lucide-react"
 
 type Theme = "default" | "snow" | "aurora" | "gingerbread"
 
@@ -71,7 +71,6 @@ export function SpiritMeter({
 
       <div className="flex items-center justify-between mb-4 relative z-10">
         <div className="flex items-center gap-2">
-          <Star className="w-6 h-6 animate-pulse" style={{ color: "#D4A373" }} />
           <h3
             className="text-xl font-serif font-bold"
             style={{
