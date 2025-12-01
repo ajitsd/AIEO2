@@ -1,31 +1,31 @@
 # 🛹 The AI Engineer Onramp, Cohort 2 Home Page
 
-👋 Welcome to [The AI Engineer Onramp: From Vibes to AI-Assisted Development with Cursor 2.0](https://maven.com/aimakerspace/ai-eng-onramp)
+👋 Welcome to [The AI Engineer Onramp: From Vibe Coding to AI-Assisted Development](https://maven.com/aimakerspace/ai-eng-onramp)
 
 This course is designed to help you get set up like a professional AI Engineer so that *you're ready to build production LLM applications in 2026*.
 
 ## 🗓️ Class Dates
 
-If you'd like, you can **[access the Zoom classroom directly now](https://us02web.zoom.us/j/83425720977).** 
+If you'd like, you can **[access the Zoom classroom directly now](https://us02web.zoom.us/j/87561247650).** 
 
 Class is held from 12:00 to 1:30 PM on Mondays, and will open promptly at 12:00:00 PM ET. **You should have received hard calendar invites for each class period**, according to the following schedule 👇
 
-- **Monday, December 1:** 🎧 AI-Assisted Development & LLM APIs &
-- **Monday, December 8:** 🖼️ Front End UI Development & Deployment of LLM Applications
-- **Monday, December 15:** ⚡ Back End Web App Development & Deployment of LLM Applications
-- **Monday, December 22:** ↔️ End-to-End LLM Application Development with Coding Agents
+- **Monday, December 1:** 🎧 From Vibes to AI-Assisted Development
+- **Monday, December 8:** 🖼️ LLM APIs & Frontend UI Development
+- **Monday, December 15:** ⚡ Backend Web App Development & Deployment of LLM Applications
+- **Monday, December 22:** ↔️ Building End-to-End LLM Applications
 
 # 🛣️ Getting Started
 
-1. 📅 **Calendar**: {coming soon}
+1. 📅 **Calendar**: Add the Cohort Calendar to yours [here](https://bit.ly/aieo2-cal).
 2. 🌏 **Discord**: Join the AIM Discord [here](https://discord.gg/uWDzDtz8). *Send your Discord username to **`courseops@aimakerspace.io` with the subject line "AIEO2 Discord Access" ***. Then ensure you have access to AIEO2-specific, private Discord Channels described below (described below!).
-3. ⚠️ **Prerequisites**: Set up your initial [dev environment](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers), [OpenAI API Key](https://platform.openai.com/login), and [Google Colab](https://colab.google/) account. Also, download [Cursor](https://cursor.com/download). 
+3. ⚠️ **Prerequisites**: Read through each of the README.md files in this Repo!
 
 # 🧑‍🎓 Course Materials
 
-Our [syllabus and detailed schedule](https://bit.ly/aieo2-curr) will guide us through the course.
+`00_Quicklinks` is your one-stop shop for all course materials, and our [syllabus and detailed schedule](https://bit.ly/aieo2-curr) will guide us through the course.
 
-For each session, you can find everything you need directly in the GitHub README.md for that session. This includes:
+In addition to the optional README overviews of topics in the main repository, for each session you can find everything you need directly in the GitHub README.md _for that session_. This includes:
 
 - 📛 Required Tooling & Account Setup
 - 🧑‍💻 Recommended Pre-Work!
@@ -45,10 +45,9 @@ For each session, you can find everything you need directly in the GitHub README
 - 🖱️ Code Editor: [Cursor](https://www.cursor.com/)
 - 🤖 CLI Coding Agent: [Cursor CLI](https://cursor.com/docs/cli/overview)
 - 🧠 LLM: [OpenAI GPT models](https://platform.openai.com/docs/models)
-- 🎨 User Interface: Vibe-coded with [Next.js](https://nextjs.org/)
+- 🎨 User Interface: Vibe-coded with [v0](https://v0.app/)
 - ⚡ Web App Framework: [FastAPI](https://fastapi.tiangolo.com/)
-- ☁️ Deployment: [Render](https://render.com/docs)
-
+- ☁️ Deployment: [Vercel](https://vercel.com/) & [Render](https://render.com/docs)
 
 # 🌐 Discord
 
@@ -58,18 +57,22 @@ When it comes to Discord, there is a lot to explore. However, if you're trying t
 - [build-ship-share-🏗-🚢-🚀](https://discord.com/channels/1135695983720792216/1135700320517890131) (for when you've built and shipped and are ready to share)
 
 **#️⃣ AIEO2 Channels**
-{Coming soon!}
+- [aieo2-announcements](https://discord.com/channels/1135695983720792216/1443985783697571920) (for instructor and peer support announcements)
+- [aieo2-general](https://discord.com/channels/1135695983720792216/1443985850592657570) (treat as cohort misc!)
+- [aieo2-questions](https://discord.com/channels/1135695983720792216/1443985934096797796) (use this channel to get your **questions** answered!)
+- [aieo2-lounge](https://discord.com/channels/1135695983720792216/1443986008554078396) (You can hang out with instructors, peer supporters, and other students!)
+- [aieo2-office-hours](https://discord.com/channels/1135695983720792216/1443986090867425421) (Join for office hours schedule is on the Cohort calendar)
 
 # 🧑‍🤝‍🧑 Peer Supporters
 
-Your peer supporters will be your guides throughout the cohort! Learn more about each peer supporter peer supporter is listed, along with what they Peer Supporter [Journey Group](https://curiouslionlearning.com/why-group-learning/#Two_Types_of_Groups_Journey_and_Destination) name!
+Your peer supporters will be your [guides](https://curiouslionlearning.com/why-group-learning/#Two_Types_of_Groups_Journey_and_Destination) throughout the cohort! Learn more about each peer supporter below!
 
-**[Journey Group](https://curiouslionlearning.com/why-group-learning/#Two_Types_of_Groups_Journey_and_Destination) Leads**
-{Coming soon}
-
-**Additional 1:1 Peer Support Staff**
-{Coming soon}
-
+- [Laura Funderburk](https://www.notion.so/Laura-Funderburk-1d1cd547af3d80c98f77f27929312add?pvs=21), Agentic Alliance, available 2:30 PM ET on Thursdays
+- [Mani Sarkar](https://www.notion.so/Mani-Sarkar-2a0cd547af3d80179c39f0beddb94005), The Sandbox, available at 6 PM ET on Thursdays
+- [Mike Dean](https://www.notion.so/Mike-Dean-17bcd547af3d807a8526fc8a24363b7a?pvs=21), GitMasters, available at 12 PM ET on Tuesdays
+- [Don Branson](https://www.notion.so/Don-Branson-1c8cd547af3d80e9a221d62d2ddc4036?pvs=21), Distilled Reasoning, available {TBD}
+- [Todd Deshane](https://www.notion.so/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=21), TBD, available {TBD}
+  
 🎉 You'll also notice office hours from instructors, peer supporters, and more!
 
 # 🙏 On GitHub Contributions
