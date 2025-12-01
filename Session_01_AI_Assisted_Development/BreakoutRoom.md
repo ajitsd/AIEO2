@@ -80,23 +80,11 @@ Before we start building, we need to ensure your development environment is prop
 ---
 
 ## Step 1: Connect to AIM Repository Remotely 🔗
+- Clone the AIEO2 repo into your local folder by following the steps in [Setting up local repo](https://github.com/AI-Maker-Space/AIE8/tree/main/00_Setting%20Up%20Git)
 
 Now we'll set up a connection to the AI Maker Space repository so you can access course materials while maintaining your own repository.
 
-### 1.1 Create Your Local Repository Directory
-
-1. Open your terminal in Cursor
-2. Navigate to where you want to store your projects:
-   ```bash
-   cd ~/Desktop  # or wherever you prefer
-   ```
-3. Create a directory for your work:
-   ```bash
-   mkdir my-ai-projects
-   cd my-ai-projects
-   ```
-
-### 1.2 Create and Clone Your GitHub Repository
+### 1.1 Create and Clone Your GitHub Repository
 
 1. First, create a new repository on GitHub (we'll do this in detail in Step 2, but for now):
    - Go to [GitHub](https://github.com) and create a new repository
@@ -111,11 +99,11 @@ Now we'll set up a connection to the AI Maker Space repository so you can access
 
 > **Note:** If you see `warning: You appear to have cloned an empty repository.` - that's perfect! You've done it correctly.
 
-### 1.3 Add AIM Repository as Upstream Remote
+### 1.2 Add AIM Repository as Upstream Remote
 
 1. Add the AI Maker Space repository as an upstream remote:
    ```bash
-   git remote add upstream git@github.com:AI-Maker-Space/Beyond-ChatGPT.git
+   git remote add upstream git@github.com:AI-Maker-Space/AIEO2.git
    ```
 
 2. Verify your remotes:
@@ -127,29 +115,29 @@ Now we'll set up a connection to the AI Maker Space repository so you can access
    ```
    origin    git@github.com:yourusername/yourrepo.git (fetch)
    origin    git@github.com:yourusername/yourrepo.git (push)
-   upstream  git@github.com:AI-Maker-Space/Beyond-ChatGPT.git (fetch)
-   upstream  git@github.com:AI-Maker-Space/Beyond-ChatGPT.git (push)
+   upstream  git@github.com:AI-Maker-Space/AIEO2.git (fetch)
+   upstream  git@github.com:AI-Maker-Space/AIEO2.git (push)
    ```
 
 3. Fetch content from upstream:
    ```bash
-   git fetch --all
+   git pull upstream main
    ```
 
-4. Create a branch tracking upstream:
+4. Make changes, add them and commit them
    ```bash
-   git checkout --track -b upstream-branch upstream/main
+   git add .
+   git commit -m your-message
    ```
 
-5. Merge upstream content into your main branch:
-   ```bash
-   git checkout main
-   git merge upstream-branch --allow-unrelated-histories
-   ```
-
-6. Push to your repository:
+5. Push to your repository:
    ```bash
    git push origin main
+   ```
+
+6. Next time before making any changes:
+   ```bash
+   git pull upstream main --allow-unrelated-histories
    ```
 
 **Why this setup?** This pattern allows you to:
@@ -168,7 +156,7 @@ Now let's create a dedicated repository for your frontend application.
 3. Select **"New repository"**
 4. Name your repository (e.g., `my-v0-app` or `my-ai-frontend`)
 5. Choose **Public** or **Private** (your choice)
-6. **DO NOT** initialize with README, .gitignore, or license (we'll add these later)
+6. Add .gitignore (Python), license (you can select - for copyrights, i.e. MIT)
 7. Click **"Create repository"**
 8. **Copy the SSH URL** (click the green "Code" button and select SSH, then copy the URL)
    - It should look like: `git@github.com:yourusername/yourrepo.git`
@@ -251,22 +239,16 @@ For components, use shadcn/ui with: [component names]
 Color scheme: [your colors from Coolors]
 ```
 
-**Example: "Hot Mess Tracker" App**
+**Example: "Santa Wish List" App**
 
 ```
-Create me an app: "Hot Mess Tracker"
-
-A "self-report" app for chaos level of your day.
-
-Concept:
-- Sliders: "Late to class," "Lost charger," "Sent risky text," "Procrastination"
-- Animated emoji face reacts as your "hot mess score" increases
-- Saves your results and gives sarcastic motivational message
+Create me a simple react.js frontend: 1. Santa’s Magical Wish List GeneratorVibe: Scroll parchment, snowflakes falling, warm candle glow.How it worksUser types a wish (or multiple wishes).Each item magically writes itself onto an animated parchment scroll with calligraphy.A wax seal “stamps” when the list is complete.A Ho Ho Ho sound or soft bell plays when Santa replies.Fun features❄️ Snowfall animation✍️ Auto-writing effect🕯 Cozy Christmas aesthetic🎁 Santa gives rating: “Nice / Naughty” for each wish.
 
 Design Requirements:
 - Use the website style similar to: https://www.canva.com/templates/EAFSoi3Ltnc/
 - For buttons, use shadcn/ui with outline variant
-- Color scheme: murrey (#89023e), old-rose (#cc7178), misty-rose (#ffd9da)
+- Color scheme: (select christmas colors from coolors.co)
+- use image (upload cool_santa.png)
 ```
 
 ---
@@ -372,14 +354,7 @@ Since you cloned the repository, it's already connected to GitHub! Now commit yo
 
 Now let's get your app live on the web!
 
-1. Go to [Vercel](https://vercel.com)
-2. Sign in with your GitHub account
-3. Click **"New Project"**
-4. Import your GitHub repository (the one you just pushed to)
-5. Vercel will automatically detect your framework
-6. Click **"Deploy"**
-7. Wait a few minutes for the deployment to complete
-8. Once deployed, click on your project to see the live URL
+1. Go to terminal inside of your frontend folder and type in `vercel --prod`
 
 **Your app is now live and accessible to the world!** 🎉
 

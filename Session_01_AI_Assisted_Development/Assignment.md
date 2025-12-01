@@ -293,14 +293,7 @@ Since you cloned the repository, it's already connected to GitHub! Now commit yo
 
 Now let's get your app live on the web!
 
-1. Go to [Vercel](https://vercel.com)
-2. Sign in with your GitHub account
-3. Click **"New Project"**
-4. Import your GitHub repository (the one you just pushed to)
-5. Vercel will automatically detect your framework
-6. Click **"Deploy"**
-7. Wait a few minutes for the deployment to complete
-8. Once deployed, click on your project to see the live URL
+1. Go to terminal inside of your frontend folder and type in `vercel --prod`
 
 **Your app is now live and accessible to the world!** 🎉
 
