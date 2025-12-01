@@ -167,7 +167,7 @@ export default function SantaWishList() {
                   }}
                 >
                   <span className="relative inline-block">
-                    Santa's Magical Wish List
+                    Santa's Secret Wish List
                     <div
                       className="absolute -inset-1 blur-sm opacity-30"
                       style={{ background: "linear-gradient(90deg, transparent, #D4A373, transparent)" }}
