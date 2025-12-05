@@ -7,7 +7,7 @@
 
 | 🤓 Pre-class | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-|[Prepare Backend](https://github.com/AI-Maker-Space/AIEO1/tree/main/03_Prepare_Session_03_Backend) | [Recording!](https://us02web.zoom.us/rec/share/ZC-WtdQNkORmgkLGNgnii4HF3m--tkD6eS1S26Jgby-DhWUqqzq2kN-m9cZHnsOJ.62QKCGJZNrUeguwD) (6+hv2YpS) | [Slides](https://www.canva.com/design/DAG492HUYsU/d98h86nIBAbpLsJ2TBFriQ/edit?utm_content=DAG492HUYsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [HW #3](https://forms.gle/44PKtYxPhL3xUiJg7) | [Mon, Nov 17](https://forms.gle/moKSGEmZacqA63c36) |
+| Coming soon! | Coming soon! | Coming soon! | You are here! | Coming soon! | Coming soon! |
 
 ---
 
