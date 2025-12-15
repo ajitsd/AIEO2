@@ -114,7 +114,7 @@ Feel free to reach out if you're curious or would like to collaborate on similar
 ## 📚 Table of Contents
 
 - [Overview](#overview)
-- [Step 1: Create Empty Repository and Set Up AIE-Challenge](#step-1-create-empty-repository-and-set-up-aie-challenge)
+- [Step 1: Create Repository and Set Up AIE-Challenge](#step-1-create-empty-repository-and-set-up-aie-challenge)
 - [Step 2: Test Backend Locally](#step-2-test-backend-locally)
 - [Step 3: Deploy Backend to Vercel](#step-3-deploy-backend-to-vercel)
 - [Step 4: Create Frontend with v0](#step-4-create-frontend-with-v0)
@@ -149,8 +149,7 @@ In this assignment, you will finalize the AIE-challenge by creating a complete e
 
 ## 1.1 Create an Empty GitHub Repository
 
-1. Go to GitHub and create a new empty repository (e.g., `aie-challenge-wishlist`)
-2. **Do not** initialize it with a README, .gitignore, or license
+1. Go to GitHub and create a new repository (e.g., `aie-challenge-wishlist`)
 
 <details>
 <summary><strong>1.2 Clone Your Empty Repository</strong></summary>
