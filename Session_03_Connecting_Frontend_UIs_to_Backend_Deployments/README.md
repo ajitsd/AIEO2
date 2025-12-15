@@ -5,9 +5,9 @@
 
 ## <h1 align="center" id="heading">Session 3: Connecting Frontend UIS To Backend Deployments</h1>
 
-| 🤓 Pre-work | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
-|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| Coming soon! | Coming soon! | Coming soon! | Coming soon! | Coming soon! | Coming soon! |
+| ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📄 Homework       | 📁 Feedback       | 
+|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
+| [Recording!](https://us02web.zoom.us/rec/share/LUaI1ZfiHiS8CKPdkiLdV3P7nC28VdfdgQevT8QSQZ1nxhrBQ5OZMdiRTcxkdcdG.XuT4aDzDRCfgJ42M) (Ys&0R.s3) | [Slides](https://www.canva.com/design/DAG6SJk52Ac/h9ESc8SDgV9ARGtHs70sHQ/edit?utm_content=DAG6SJk52Ac&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [HW Submission](https://forms.gle/3CeuMZZdy61H71Hz9) | [12/15 Feedback](https://forms.gle/jz7dpAWeSfPVM6s56) |
 
 ---
 
