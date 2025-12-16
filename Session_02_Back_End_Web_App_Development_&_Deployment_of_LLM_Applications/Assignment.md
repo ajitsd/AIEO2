@@ -1,4 +1,4 @@
-# 🤝 Assignment: Build Your *Hot Mess Coach* Backend with Angel Chat
+# 🤝 Assignment: Build Your *TreatOrHell* Backend with Angel Chat
 
 Welcome! In this Assignment you will build a **Python FastAPI application** with an **LLM-powered chat** featuring the Angel character, and deploy it to **Vercel**.
 
@@ -8,7 +8,7 @@ Welcome! In this Assignment you will build a **Python FastAPI application** with
 - [Prerequisites](#prerequisites)
 - [Part 1 — Backend: Build FastAPI + Angel Chat + Deploy to Vercel 🐍☁️](#part-1--backend-build-fastapi--angel-chat--deploy-to-vercel)
   - [Step 1: Set Up Your Environment 🏗️](#step-1-set-up-your-environment-)
-  - [Step 2: Create Your FastAPI "Hot Mess Coach" App with Angel Chat 🧱](#step-2-create-your-fastapi-hot-mess-coach-app-with-angel-chat-)
+  - [Step 2: Create Your FastAPI "TreatOrHell" App with Angel Chat 🧱](#step-2-create-your-fastapi-treatorhell-app-with-angel-chat-)
   - [Step 3: Deploy FastAPI Backend to Vercel ☁️](#step-3-deploy-fastapi-backend-to-vercel-)
 - [Part 2 — Advanced: Add Student Questions & Context Awareness 🎯](#part-2--advanced-add-student-questions--context-awareness-)
 - [🏗️ Assignment Checklist](#assignment-checklist)
@@ -43,6 +43,7 @@ You can get inspired by the sample scripts in the `sample_backend_scripts` folde
 
 ---
 
+<a id="part-1--backend-build-fastapi--angel-chat--deploy-to-vercel"></a>
 # Part 1 — Backend: Build FastAPI + Angel Chat + Deploy to Vercel 🐍☁️
 
 ## Step 1: Set Up Your Environment 🏗️
@@ -51,10 +52,10 @@ You can get inspired by the sample scripts in the `sample_backend_scripts` folde
 
 ```bash
 # Create GitHub folder and clone your repository
-git clone {ssh_keys_to_your_hot_mess_coach_repo}
+git clone {ssh_keys_to_your_treatorhell_repo}
 
 # Open your cloned folder
-cd hot-mess-coach
+cd treatorhell
 ```
 
 ### Add GitFlow + Cursor Rules
@@ -68,7 +69,7 @@ You can copy them from the course repository if they're provided.
 
 ---
 
-## Step 2: Create Your FastAPI "Hot Mess Coach" App with Angel Chat 🧱
+## Step 2: Create Your FastAPI "TreatOrHell" App with Angel Chat 🧱
 
 ### Set Up Your Project Structure
 
@@ -82,7 +83,7 @@ cd api
 # (You can get inspired by STEP1_app_llm.py or STEP2_app_llm_html.py from sample_backend_scripts)
 touch index.py
 
-# Move back to your hot-mess-coach folder
+# Move back to your treatorhell folder
 cd ../
 ```
 
@@ -127,7 +128,7 @@ Create `pyproject.toml` in your root directory:
 # - pydantic
 ```
 
-You can copy `pyproject.toml` from the `AIM-hot-mess-coach` example or use the one from `sample_backend_scripts`.
+You can copy `pyproject.toml` from the `AIM-treatorhell` example or use the one from `sample_backend_scripts`.
 
 Also create `requirements.txt` in your root directory with the same dependencies:
 
@@ -215,6 +216,7 @@ Your backend should now be live! Test it at your Vercel URL.
 
 ---
 
+<a id="part-2--advanced-add-student-questions--context-awareness-"></a>
 # Part 2 — Advanced: Add Student Questions & Context Awareness 🎯
 
 For the advanced assignment, enhance your backend to include a 4-question form that collects student information and uses it to personalize the Angel's responses.
@@ -320,4 +322,4 @@ Use this information to personalize your responses and reference their behavior 
 
 ---
 
-Enjoy building your Hot Mess Coach backend! 🎉
+Enjoy building your TreatOrHell backend! 🎉

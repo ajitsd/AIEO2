@@ -7,12 +7,9 @@
 
 This repo contains a few minimal FastAPI examples that progress from a basic HTML page to an LLM-backed UI with document upload. Features St. Nicholas, Angel, and Devil characters for holiday-themed interactions. Keep the vibe, keep it simple.
 
-Our deployed Vercel applications are here: 
-1. https://aim-hot-mess-coach.vercel.app/
-   with GitHub repo available here: https://github.com/katgaw/AIM-hot-mess-coach
-2. https://aim-hot-mess-coach-upload.vercel.app/
-    with GitHub repo available here: https://github.com/katgaw/AIM-hot-mess-coach-upload
-    
+Our deployed Vercel application is here: 
+https://backend-treat-or-hell.vercel.app/
+
 ### Quick Start
 
 ```bash
@@ -42,21 +39,12 @@ export OPENAI_API_KEY=sk-...   # required for LLM variants
     ```
   - Try Swagger: `http://127.0.0.1:8000/docs`
 
-- **STEP2_app_llm_html.py** - Chat UI with All Three Characters
-  - LLM backend wrapped in a minimal HTML UI.
-  - Chat with St. Nicholas, Angel, or Devil directly from the browser.
-  - Run:
-    ```bash
-    uv run uvicorn STEP2_app_llm_html:app --reload --host 0.0.0.0 --port 8000
-    ```
-  - Open `http://127.0.0.1:8000`
-
-- **STEP4_app_llm_doc.py** - Devil's CV Judge
+- **STEP2_app_llm_doc.py** - Devil's CV Judge
   - FastAPI app with PDF CV upload functionality.
   - The Devil judges your work habits based on your CV and roasts you for working too much!
   - Includes nanobanana image display.
   - Run:
     ```bash
-    uv run uvicorn STEP4_app_llm_doc:app --reload --host 0.0.0.0 --port 8000
+    uv run uvicorn STEP2_app_llm_doc:app --reload --host 0.0.0.0 --port 8000
     ```
   - Open `http://127.0.0.1:8000` or try Swagger UI at `/docs`
