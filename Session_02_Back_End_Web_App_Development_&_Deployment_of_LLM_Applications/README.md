@@ -3,11 +3,11 @@
      height="auto"/>
 </p>
 
-## <h1 align="center" id="heading">Session 3: Back End Web App Development & Deployment of LLM Applications</h1>
+## <h1 align="center" id="heading">Session 2: ⚡ LLM APIs & Backend Web App Development & Deployment</h1>
 
-| 🤓 Pre-class | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
-|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-|[Prepare Backend](https://github.com/AI-Maker-Space/AIEO1/tree/main/03_Prepare_Session_03_Backend) | [Recording!](https://us02web.zoom.us/rec/share/ZC-WtdQNkORmgkLGNgnii4HF3m--tkD6eS1S26Jgby-DhWUqqzq2kN-m9cZHnsOJ.62QKCGJZNrUeguwD) (6+hv2YpS) | [Slides](https://www.canva.com/design/DAG492HUYsU/d98h86nIBAbpLsJ2TBFriQ/edit?utm_content=DAG492HUYsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [HW #3](https://forms.gle/44PKtYxPhL3xUiJg7) | [Mon, Nov 17](https://forms.gle/moKSGEmZacqA63c36) |
+| ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📄 Homework       | 📁 Feedback       | 
+|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
+| [Recording!](https://us02web.zoom.us/rec/share/IXFR3_h72eZ1TbXWWVRiaE4xTSQIPBnpIRZUR-M5450uR8CIo-5kza1ixH9BanrA.KKu-OIqI1YHr3cfZ ) (=7Ld3A2L) | [Slides](https://www.canva.com/design/DAG7mNC02hI/UyxdkZg2EuHlFp1khcq6uA/edit?utm_content=DAG7mNC02hI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [HW Submission](https://forms.gle/kHkKuf1sEVHR5pU96) | [12/8 Feedback](https://forms.gle/LwGaXQriviy9tVwa6) |
 
 ---
 
@@ -61,7 +61,7 @@ In this session, you'll build a Python FastAPI backend called **TreatOrHell** (H
 The deployed TreatOrHell backend on Vercel (and optional frontend connected to it)!
 
 Our deployed Vercel applications are here: 
-1. https://backend-treat-or-hell-1f5w4f0gb-kats-projects-e3077004.vercel.app/
+1. https://backend-treat-or-hell.vercel.app/
 
 <details>
 <summary>🚧 Advanced Modules (OPTIONAL) — <i>open for details</i></summary>
